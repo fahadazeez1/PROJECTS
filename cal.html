@@ -1,0 +1,85 @@
+  <!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+  <style>
+  .main{
+    background-color:#868B8E;
+    width: 360px;
+    border:solid black 1px;
+    padding: 5px;
+    border-radius: 5px;
+  }
+    .under{
+     
+      
+      display:grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr ;
+    }
+    .btn,.btne{
+      width:85px;
+      height: 85px;
+      margin: 2px;
+      border:solid black 1px;
+      border-radius: 50%;
+      font-size: 25px;
+      color:black;
+   
+    }
+   
+    .clr{
+      background-color: #F49710;
+    }
+    .disp{
+      height: 90px;
+      border: solid black 1px;
+      border-radius: 5px;
+      font-size: 40px;
+      padding: 5px;
+      background-color:#EEEDE7;
+    }
+    
+    .btn:active{
+      background-color: grey;
+    }
+      .clr:active{
+      background-color:#C66719;
+    }
+  
+  </style>
+</head>
+
+
+<body>
+<div class="main">
+  <div class="disp">
+  
+  </div>
+  <div class="under">
+  <button class="btn clr ac">AC</button>
+  <button class="btn clr del">DEL</button> <button class="btn clr per">%</button><button class="btn clr op">/</button>
+    <button class="btn sev dig">7</button>
+    <button class="btn eig dig">8</button>
+    <button class="btn nin dig">9</button>
+ <button class="btn clr mul op">*</button>
+    <button class="btn fou dig">4</button>
+    <button class="btn fiv dig">5</button>
+    <button class="btn six dig">6</button>
+    <button class="btn clr op">-</button>
+    <button class="btn one dig">1</button>
+    <button class="btn two dig">2</button>
+    <button class="btn thr dig">3</button>
+    <button class="btn clr op">+</button>
+   <button class="btn ze2 dig">00</button>
+    <button class="btn ze1 dig">0</button>
+    <button class="btn poi op">.</button>
+    <button class="btne clr equ">=</button>
+  </div>
+</div>
+<script src="cal.js"></script>
+</body>
+
+</html>
